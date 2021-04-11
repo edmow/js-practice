@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="files/css/style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="files/css/all.css">
+  <title>JS Exercices</title>
+</head>
+<body>
+  
+  <div id="ex1">
+    <div>
+      <button id="button">Click</button>
+    </div>
+  </div>
+
+  <div id="ex2">
+    <div>
+      <h1 class=text-uppercase>hex color :<span id="hex-value"></span></h1>
+      <button id="button2">Click</button>
+    </div>
+  </div>
+
+  <div id="ex3">
+    <div class="box">
+      <h2>Contador</h2>
+        <h3 id="displayCount">0</h3>
+      <div style="display: flex;">
+        <button id="lowerCount">Menos 1</button>
+        <button id="addCount">Mais 1</button>
+      </div>  
+    </div>
+  </div>
+
+  <div id="ex4">
+    <div class="container">
+      <div class="mySlides fade">
+        <img src="files/imgs/contBcg-0.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="files/imgs/contBcg-1.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="files/imgs/contBcg-2.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="files/imgs/contBcg-3.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="files/imgs/contBcg-4.jpeg" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     
+    </div>
+  </div>    
+
+
+  <!-- jquery -->
+  <script src="files/js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="files/js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="files/js/app.js"></script>
+</body>
+</html>
